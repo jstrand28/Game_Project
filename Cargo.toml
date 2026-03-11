@@ -1,0 +1,32 @@
+[package]
+name = "arc_maze"
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+bevy = "0.14.2"
+bevy_egui = "0.28"
+bevy_rapier3d = { version = "0.27.0", features = ["debug-render-3d"] }
+
+[dependencies]
+# Bevy core (pinned; do not change patch unless all plugins match)
+bevy = { workspace = true }
+
+# Physics (pairs with Bevy 0.14)
+bevy_rapier3d = { workspace = true, features = ["debug-render-3d"] }
+
+# Egui overlay (pairs with Bevy 0.14)
+bevy_egui = { workspace = true }
+
+rand = "0.8"
+itertools = "0.12"
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = "s"
+
+[workspace]
+resolver = "2"
+members = ["."]
