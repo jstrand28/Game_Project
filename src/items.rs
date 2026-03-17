@@ -1,10 +1,10 @@
 use bevy::prelude::*;
-use rand::{rngs::StdRng, Rng};
+use rand::{rngs::StdRng, RngExt};
+use serde::{Deserialize, Serialize};
 use crate::stats::Stats;
 use crate::util::{hex_srgb_u8, weighted_pick};
-use itertools::Itertools;
 
-#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, Serialize, Deserialize)]
 pub enum Rarity {
     Common,     // grey 30%
     Uncommon,   // green 25%
@@ -32,25 +32,25 @@ impl Rarity {
 }
 
 /// Slots the player can equip
-#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, Serialize, Deserialize)]
 pub enum EquipSlot {
     Watch, Necklace, Gloves, Shirt, Pants, Shoes, Hat, Cape,
     MainHand, OffHand, TwoHanded, Bag,
 }
 
 /// Weapon catalogs (examples)
-#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, Serialize, Deserialize)]
 pub enum WeaponKind {
     TwoHandedSword, LongSword, DoubleAxe, Scythe, GiantHammer, Book, MagicStaff,
     Dagger, CrystalBall, Hatchet, ShortSword, Lantern,
 }
 
-#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, Serialize, Deserialize)]
 pub enum ConsumableKind {
     BigHeal, SmallHeal, BigBandage, SmallBandage,
 }
 
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug, Default, Serialize, Deserialize)]
 pub struct StatMods {
     pub vigor: i32,
     pub strength: i32,
@@ -70,7 +70,7 @@ impl StatMods {
 }
 
 /// Item representation. Some items occupy multiple slots in bag (w,h).
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Item {
     pub name: String,
     pub rarity: Rarity,
@@ -85,6 +85,41 @@ pub struct Item {
 impl Item {
     pub fn is_bag_upgrade(&self) -> bool {
         self.equip_slot == Some(EquipSlot::Bag)
+    }
+
+    pub fn merchant_stock_key(&self) -> String {
+        format!(
+            "{}::{:?}::{:?}::{:?}",
+            self.name,
+            self.rarity,
+            self.weapon,
+            self.consumable,
+        )
+    }
+
+    pub fn base_value(&self) -> i32 {
+        let rarity_value = match self.rarity {
+            Rarity::Common => 14,
+            Rarity::Uncommon => 24,
+            Rarity::Rare => 42,
+            Rarity::UltraRare => 72,
+            Rarity::Legendary => 118,
+            Rarity::Unique => 220,
+        };
+        let category_bonus = match (self.weapon, self.consumable, self.equip_slot) {
+            (Some(WeaponKind::GiantHammer | WeaponKind::DoubleAxe | WeaponKind::Scythe | WeaponKind::TwoHandedSword | WeaponKind::LongSword | WeaponKind::MagicStaff), _, _) => 28,
+            (Some(_), _, _) => 16,
+            (_, Some(ConsumableKind::BigHeal | ConsumableKind::BigBandage), _) => 12,
+            (_, Some(_), _) => 6,
+            (_, _, Some(EquipSlot::Bag)) => 20,
+            _ => 10,
+        };
+        let stats_bonus = self.mods.vigor.abs()
+            + self.mods.strength.abs()
+            + self.mods.agility.abs()
+            + self.mods.magic.abs()
+            + self.mods.endurance.abs();
+        rarity_value + category_bonus + stats_bonus
     }
 }
 
@@ -107,7 +142,7 @@ pub fn bag_size_for_rarity(r: Rarity) -> BagSize {
 pub fn roll_equip_category(rng: &mut StdRng) -> EquipSlot {
     use EquipSlot::*;
     let cats = [Watch, Necklace, Gloves, Shirt, Pants, Shoes, Hat, Cape, MainHand, OffHand, TwoHanded, Bag];
-    cats[rng.gen_range(0..cats.len())]
+    cats[rng.random_range(0..cats.len())]
 }
 
 /// Your rarity‑driven stat roll rules.
@@ -117,13 +152,13 @@ pub fn roll_item(rng: &mut StdRng) -> Item {
     let rarity = Rarity::ALL[rix];
 
     // Decide if it’s a consumable or an equippable (most rolls equippable)
-    let is_consumable = rng.gen_bool(0.15);
+    let is_consumable = rng.random_bool(0.15);
 
     if is_consumable {
         // Consumables occupy 1x1 or 1x2 slots and don’t grant stats directly.
         use ConsumableKind::*;
         let kinds = [BigHeal, SmallHeal, BigBandage, SmallBandage];
-        let kind = kinds[rng.gen_range(0..kinds.len())];
+        let kind = kinds[rng.random_range(0..kinds.len())];
         let (name, size) = match kind {
             BigHeal      => ("Big Heal Potion",  (1,2)), // heals full over 30s
             SmallHeal    => ("Small Heal Potion",(1,1)), // heals 25% over 20s
@@ -163,7 +198,7 @@ pub fn roll_item(rng: &mut StdRng) -> Item {
 
     // pick a random key and add delta
     let mut add_rand_delta = |rng: &mut StdRng, delta: i32| {
-        let key = rng.gen_range(0..5);
+        let key = rng.random_range(0..5);
         add_key(key, delta);
     };
 
@@ -178,20 +213,20 @@ pub fn roll_item(rng: &mut StdRng) -> Item {
         }
         Rarity::Uncommon => {
             add_primary(rng, 3);
-            let d = rng.gen_range(-10..=10);
+            let d = rng.random_range(-10..=10);
             add_rand_delta(rng, d);
         }
         Rarity::Rare => {
             add_primary(rng, 4);
             for _ in 0..2 { 
-                let d = rng.gen_range(-10..=10);
+                let d = rng.random_range(-10..=10);
                 add_rand_delta(rng, d); 
             }
         }
         Rarity::UltraRare => {
             add_primary(rng, 5);
             for _ in 0..3 { 
-                let d = rng.gen_range(-10..=10);
+                let d = rng.random_range(-10..=10);
                 add_rand_delta(rng, d); 
             }
         }
@@ -199,12 +234,12 @@ pub fn roll_item(rng: &mut StdRng) -> Item {
             add_primary(rng, 7);
             add_primary(rng, 7);
             for _ in 0..3 {
-                let d = rng.gen_range(-10..=10); 
+                let d = rng.random_range(-10..=10); 
                 add_rand_delta(rng, d); 
             }
         }
         Rarity::Unique => {
-            let d = rng.gen_range(10..=500);
+            let d = rng.random_range(10..=500);
             add_primary(rng, d);
         }
     }
@@ -214,13 +249,13 @@ pub fn roll_item(rng: &mut StdRng) -> Item {
         EquipSlot::TwoHanded => {
             use WeaponKind::*;
             let w = [TwoHandedSword, LongSword, DoubleAxe, Scythe, GiantHammer, Book, MagicStaff];
-            let wk = w[rng.gen_range(0..w.len())];
+            let wk = w[rng.random_range(0..w.len())];
             (Some(wk), (2,4), format!("{wk:?}"), Some(EquipSlot::TwoHanded))
         }
         EquipSlot::MainHand | EquipSlot::OffHand => {
             use WeaponKind::*;
             let w = [Dagger, CrystalBall, Hatchet, ShortSword, Lantern];
-            let wk = w[rng.gen_range(0..w.len())];
+            let wk = w[rng.random_range(0..w.len())];
             (Some(wk), (2,2), format!("{wk:?}"), Some(slot))
         }
         EquipSlot::Bag => {

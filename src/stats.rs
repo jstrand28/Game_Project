@@ -61,7 +61,7 @@ impl PlayerStats {
         }
     }
 
-    fn total(&self) -> Stats {
+    pub fn total(&self) -> Stats {
         Stats {
             vigor: self.base.vigor + self.bonus.vigor,
             strength: self.base.strength + self.bonus.strength,

@@ -1,5 +1,5 @@
 use bevy::prelude::*;
-use rand::{rngs::StdRng, Rng};
+use rand::{rngs::StdRng, RngExt};
 
 pub fn hex_srgb_u8(hex: &str) -> Color {
     let h = hex.trim_start_matches('#');
@@ -11,7 +11,7 @@ pub fn hex_srgb_u8(hex: &str) -> Color {
 
 pub fn weighted_pick(rng: &mut StdRng, weights: &[u32]) -> usize {
     let tot: u32 = weights.iter().copied().sum();
-    let mut roll = rng.gen_range(0..tot);
+    let mut roll = rng.random_range(0..tot);
     for (i, &w) in weights.iter().enumerate() {
         if roll < w { return i; }
         roll -= w;

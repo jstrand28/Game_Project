@@ -1,5 +1,5 @@
 use bevy::prelude::*;
-use rand::{rngs::StdRng, Rng, SeedableRng};
+use rand::{rngs::StdRng, RngExt, SeedableRng};
 
 #[derive(Clone, Copy, Debug)]
 pub struct Cell { pub walls: [bool; 4] } // N,E,S,W
@@ -26,7 +26,7 @@ impl Maze {
         #[derive(Clone, Copy)] struct P(u32,u32);
         let mut rng = StdRng::seed_from_u64(seed);
         let (w,h) = (self.w, self.h);
-        let (sx, sy) = (rng.gen_range(0..w), rng.gen_range(0..h));
+        let (sx, sy) = (rng.random_range(0..w), rng.random_range(0..h));
         let mut visited = vec![false; (w*h) as usize];
         let mut stack = vec![P(sx,sy)];
         visited[self.idx(sx,sy)] = true;
@@ -49,7 +49,7 @@ impl Maze {
             }
             if nbrs.is_empty() { stack.pop(); }
             else {
-                let (nx,ny,wc,wn) = nbrs[rng.gen_range(0..nbrs.len())];
+                let (nx,ny,wc,wn) = nbrs[rng.random_range(0..nbrs.len())];
                 let c = self.idx(cx,cy);
                 let n = self.idx(nx,ny);
                 self.cells[c].walls[wc] = false;
@@ -66,9 +66,9 @@ impl Maze {
         let mut picks: Vec<(u32,u32,usize)> = vec![]; // x,y,wall idx to open
         // north, east, south
         let candidates = [
-            (rng.gen_range(0..self.w), 0, 0usize),                    // north -> open N
-            (self.w-1, rng.gen_range(0..self.h), 1usize),             // east  -> open E
-            (rng.gen_range(0..self.w), self.h-1, 2usize),             // south -> open S
+            (rng.random_range(0..self.w), 0, 0usize),                    // north -> open N
+            (self.w-1, rng.random_range(0..self.h), 1usize),             // east  -> open E
+            (rng.random_range(0..self.w), self.h-1, 2usize),             // south -> open S
         ];
         picks.extend_from_slice(&candidates);
         for (x,y,wi) in picks {

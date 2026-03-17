@@ -1,0 +1,3985 @@
+{
+  "bag": {
+    "w": 24,
+    "h": 24,
+    "cells": [
+      {
+        "name": "Pants",
+        "rarity": "Legendary",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 7,
+          "strength": 0,
+          "agility": 4,
+          "magic": 0,
+          "endurance": 9
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            -1
+          ],
+          [
+            "endurance",
+            2
+          ],
+          [
+            "agility",
+            5
+          ]
+        ]
+      },
+      {
+        "name": "UltraRare Bag 10x20",
+        "rarity": "UltraRare",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": -11,
+          "strength": 5,
+          "agility": 6,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            5
+          ],
+          [
+            "vigor",
+            -5
+          ],
+          [
+            "agility",
+            6
+          ],
+          [
+            "vigor",
+            -6
+          ]
+        ]
+      },
+      {
+        "name": "Legendary Bag 24x24",
+        "rarity": "Legendary",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": -10,
+          "strength": 9,
+          "agility": -10,
+          "magic": 7,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            -10
+          ],
+          [
+            "strength",
+            9
+          ],
+          [
+            "vigor",
+            -10
+          ]
+        ]
+      },
+      {
+        "name": "Pants",
+        "rarity": "Legendary",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 7,
+          "strength": 0,
+          "agility": 4,
+          "magic": 0,
+          "endurance": 9
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            -1
+          ],
+          [
+            "endurance",
+            2
+          ],
+          [
+            "agility",
+            5
+          ]
+        ]
+      },
+      {
+        "name": "Legendary Bag 24x24",
+        "rarity": "Legendary",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": -10,
+          "strength": 9,
+          "agility": -10,
+          "magic": 7,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            -10
+          ],
+          [
+            "strength",
+            9
+          ],
+          [
+            "vigor",
+            -10
+          ]
+        ]
+      },
+      {
+        "name": "Shirt",
+        "rarity": "Legendary",
+        "equip_slot": "Shirt",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": -2,
+          "agility": 11,
+          "magic": 7,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "agility",
+            9
+          ],
+          [
+            "strength",
+            -2
+          ],
+          [
+            "agility",
+            -5
+          ]
+        ]
+      },
+      {
+        "name": "Pants",
+        "rarity": "UltraRare",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 5,
+          "magic": 5,
+          "endurance": -4
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            5
+          ],
+          [
+            "magic",
+            5
+          ],
+          [
+            "agility",
+            5
+          ],
+          [
+            "endurance",
+            -9
+          ]
+        ]
+      },
+      {
+        "name": "Pants",
+        "rarity": "Legendary",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 7,
+          "strength": 0,
+          "agility": 4,
+          "magic": 0,
+          "endurance": 9
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            -1
+          ],
+          [
+            "endurance",
+            2
+          ],
+          [
+            "agility",
+            5
+          ]
+        ]
+      },
+      {
+        "name": "Legendary Bag 24x24",
+        "rarity": "Legendary",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": -10,
+          "strength": 9,
+          "agility": -10,
+          "magic": 7,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            -10
+          ],
+          [
+            "strength",
+            9
+          ],
+          [
+            "vigor",
+            -10
+          ]
+        ]
+      },
+      {
+        "name": "Book",
+        "rarity": "Legendary",
+        "equip_slot": "TwoHanded",
+        "weapon": "Book",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 4,
+          "magic": 7,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "agility",
+            -4
+          ],
+          [
+            "agility",
+            -8
+          ],
+          [
+            "agility",
+            9
+          ]
+        ]
+      },
+      {
+        "name": "Necklace",
+        "rarity": "UltraRare",
+        "equip_slot": "Necklace",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": -5,
+          "strength": -10,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 5
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            5
+          ],
+          [
+            "vigor",
+            3
+          ],
+          [
+            "strength",
+            -10
+          ],
+          [
+            "vigor",
+            -8
+          ]
+        ]
+      },
+      {
+        "name": "Watch",
+        "rarity": "UltraRare",
+        "equip_slot": "Watch",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 3,
+          "magic": -6,
+          "endurance": 9
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            5
+          ],
+          [
+            "agility",
+            3
+          ],
+          [
+            "magic",
+            -6
+          ],
+          [
+            "endurance",
+            4
+          ]
+        ]
+      },
+      {
+        "name": "Shirt",
+        "rarity": "UltraRare",
+        "equip_slot": "Shirt",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 5,
+          "strength": 0,
+          "agility": 8,
+          "magic": -1,
+          "endurance": 5
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            5
+          ],
+          [
+            "agility",
+            8
+          ],
+          [
+            "magic",
+            -1
+          ],
+          [
+            "endurance",
+            5
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "stash": {
+    "slots": [
+      {
+        "name": "Pants",
+        "rarity": "UltraRare",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": -1,
+          "strength": 7,
+          "agility": -6,
+          "magic": 0,
+          "endurance": 5
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            5
+          ],
+          [
+            "strength",
+            7
+          ],
+          [
+            "vigor",
+            -1
+          ],
+          [
+            "agility",
+            -6
+          ]
+        ]
+      },
+      {
+        "name": "Shoes",
+        "rarity": "UltraRare",
+        "equip_slot": "Shoes",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 9,
+          "agility": 0,
+          "magic": 6,
+          "endurance": 2
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            5
+          ],
+          [
+            "endurance",
+            2
+          ],
+          [
+            "magic",
+            6
+          ],
+          [
+            "strength",
+            4
+          ]
+        ]
+      },
+      {
+        "name": "Legendary Bag 24x24",
+        "rarity": "Legendary",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": -6,
+          "strength": 7,
+          "agility": 4,
+          "magic": 7,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "magic",
+            0
+          ],
+          [
+            "agility",
+            4
+          ],
+          [
+            "vigor",
+            -6
+          ]
+        ]
+      },
+      {
+        "name": "Gloves",
+        "rarity": "Rare",
+        "equip_slot": "Gloves",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 7,
+          "strength": 4,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            4
+          ],
+          [
+            "vigor",
+            10
+          ],
+          [
+            "vigor",
+            -3
+          ]
+        ]
+      },
+      {
+        "name": "Watch",
+        "rarity": "UltraRare",
+        "equip_slot": "Watch",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 5,
+          "agility": -17,
+          "magic": 10,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            5
+          ],
+          [
+            "agility",
+            -9
+          ],
+          [
+            "agility",
+            -8
+          ],
+          [
+            "magic",
+            10
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "name": "MagicStaff",
+        "rarity": "Legendary",
+        "equip_slot": "TwoHanded",
+        "weapon": "MagicStaff",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 1,
+          "strength": 7,
+          "agility": 7,
+          "magic": -2,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "strength",
+            7
+          ],
+          [
+            "magic",
+            -2
+          ],
+          [
+            "agility",
+            0
+          ],
+          [
+            "vigor",
+            1
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "name": "Pants",
+        "rarity": "Legendary",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 7,
+          "strength": 0,
+          "agility": 4,
+          "magic": 0,
+          "endurance": 9
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            -1
+          ],
+          [
+            "endurance",
+            2
+          ],
+          [
+            "agility",
+            5
+          ]
+        ]
+      },
+      {
+        "name": "Legendary Bag 24x24",
+        "rarity": "Legendary",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": -10,
+          "strength": 9,
+          "agility": -10,
+          "magic": 7,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            -10
+          ],
+          [
+            "strength",
+            9
+          ],
+          [
+            "vigor",
+            -10
+          ]
+        ]
+      },
+      {
+        "name": "Book",
+        "rarity": "Legendary",
+        "equip_slot": "TwoHanded",
+        "weapon": "Book",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 4,
+          "magic": 7,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "agility",
+            -4
+          ],
+          [
+            "agility",
+            -8
+          ],
+          [
+            "agility",
+            9
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "name": "Shoes",
+        "rarity": "Legendary",
+        "equip_slot": "Shoes",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 8,
+          "strength": -10,
+          "agility": 7,
+          "magic": 7,
+          "endurance": 10
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "agility",
+            7
+          ],
+          [
+            "endurance",
+            10
+          ],
+          [
+            "strength",
+            -10
+          ],
+          [
+            "vigor",
+            8
+          ]
+        ]
+      },
+      {
+        "name": "Shoes",
+        "rarity": "Legendary",
+        "equip_slot": "Shoes",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": -1,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "vigor",
+            -1
+          ],
+          [
+            "strength",
+            -7
+          ],
+          [
+            "agility",
+            0
+          ]
+        ]
+      },
+      null,
+      {
+        "name": "Hatchet",
+        "rarity": "Legendary",
+        "equip_slot": "OffHand",
+        "weapon": "Hatchet",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": -3,
+          "agility": 0,
+          "magic": -2,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "strength",
+            1
+          ],
+          [
+            "strength",
+            -4
+          ],
+          [
+            "magic",
+            -9
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "name": "Legendary Bag 24x24",
+        "rarity": "Legendary",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 7,
+          "agility": 7,
+          "magic": 4,
+          "endurance": -9
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "strength",
+            7
+          ],
+          [
+            "magic",
+            1
+          ],
+          [
+            "endurance",
+            -9
+          ],
+          [
+            "magic",
+            3
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "equipment": {
+    "watch": {
+      "name": "Watch",
+      "rarity": "Legendary",
+      "equip_slot": "Watch",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        2
+      ],
+      "mods": {
+        "vigor": -2,
+        "strength": 0,
+        "agility": 9,
+        "magic": 0,
+        "endurance": 8
+      },
+      "extra_rolls": [
+        [
+          "agility",
+          7
+        ],
+        [
+          "vigor",
+          7
+        ],
+        [
+          "vigor",
+          -9
+        ],
+        [
+          "agility",
+          2
+        ],
+        [
+          "endurance",
+          8
+        ]
+      ]
+    },
+    "necklace": {
+      "name": "Necklace",
+      "rarity": "Legendary",
+      "equip_slot": "Necklace",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        2
+      ],
+      "mods": {
+        "vigor": 1,
+        "strength": -1,
+        "agility": 7,
+        "magic": 0,
+        "endurance": 0
+      },
+      "extra_rolls": [
+        [
+          "vigor",
+          7
+        ],
+        [
+          "agility",
+          7
+        ],
+        [
+          "vigor",
+          -6
+        ],
+        [
+          "endurance",
+          0
+        ],
+        [
+          "strength",
+          -1
+        ]
+      ]
+    },
+    "gloves": {
+      "name": "Gloves",
+      "rarity": "Legendary",
+      "equip_slot": "Gloves",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        2
+      ],
+      "mods": {
+        "vigor": 0,
+        "strength": 0,
+        "agility": 0,
+        "magic": 9,
+        "endurance": 8
+      },
+      "extra_rolls": [
+        [
+          "magic",
+          7
+        ],
+        [
+          "endurance",
+          7
+        ],
+        [
+          "endurance",
+          -1
+        ],
+        [
+          "endurance",
+          2
+        ],
+        [
+          "magic",
+          2
+        ]
+      ]
+    },
+    "shirt": {
+      "name": "Shirt",
+      "rarity": "Legendary",
+      "equip_slot": "Shirt",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        2
+      ],
+      "mods": {
+        "vigor": 0,
+        "strength": -2,
+        "agility": 11,
+        "magic": 7,
+        "endurance": 0
+      },
+      "extra_rolls": [
+        [
+          "agility",
+          7
+        ],
+        [
+          "magic",
+          7
+        ],
+        [
+          "agility",
+          9
+        ],
+        [
+          "strength",
+          -2
+        ],
+        [
+          "agility",
+          -5
+        ]
+      ]
+    },
+    "pants": {
+      "name": "Pants",
+      "rarity": "Legendary",
+      "equip_slot": "Pants",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        2
+      ],
+      "mods": {
+        "vigor": 7,
+        "strength": 0,
+        "agility": 4,
+        "magic": 0,
+        "endurance": 9
+      },
+      "extra_rolls": [
+        [
+          "vigor",
+          7
+        ],
+        [
+          "endurance",
+          7
+        ],
+        [
+          "agility",
+          -1
+        ],
+        [
+          "endurance",
+          2
+        ],
+        [
+          "agility",
+          5
+        ]
+      ]
+    },
+    "shoes": {
+      "name": "Shoes",
+      "rarity": "Legendary",
+      "equip_slot": "Shoes",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        2
+      ],
+      "mods": {
+        "vigor": 8,
+        "strength": -10,
+        "agility": 7,
+        "magic": 7,
+        "endurance": 10
+      },
+      "extra_rolls": [
+        [
+          "magic",
+          7
+        ],
+        [
+          "agility",
+          7
+        ],
+        [
+          "endurance",
+          10
+        ],
+        [
+          "strength",
+          -10
+        ],
+        [
+          "vigor",
+          8
+        ]
+      ]
+    },
+    "hat": {
+      "name": "Hat",
+      "rarity": "Legendary",
+      "equip_slot": "Hat",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        2
+      ],
+      "mods": {
+        "vigor": -3,
+        "strength": 12,
+        "agility": 1,
+        "magic": 0,
+        "endurance": 0
+      },
+      "extra_rolls": [
+        [
+          "vigor",
+          7
+        ],
+        [
+          "strength",
+          7
+        ],
+        [
+          "agility",
+          1
+        ],
+        [
+          "vigor",
+          -10
+        ],
+        [
+          "strength",
+          5
+        ]
+      ]
+    },
+    "cape": {
+      "name": "Cape",
+      "rarity": "Legendary",
+      "equip_slot": "Cape",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        2
+      ],
+      "mods": {
+        "vigor": 17,
+        "strength": 0,
+        "agility": 0,
+        "magic": 2,
+        "endurance": 8
+      },
+      "extra_rolls": [
+        [
+          "endurance",
+          7
+        ],
+        [
+          "vigor",
+          7
+        ],
+        [
+          "vigor",
+          10
+        ],
+        [
+          "endurance",
+          1
+        ],
+        [
+          "magic",
+          2
+        ]
+      ]
+    },
+    "mainhand": null,
+    "offhand": null,
+    "twohand": {
+      "name": "Book",
+      "rarity": "Legendary",
+      "equip_slot": "TwoHanded",
+      "weapon": "Book",
+      "consumable": null,
+      "size": [
+        2,
+        4
+      ],
+      "mods": {
+        "vigor": 0,
+        "strength": 0,
+        "agility": 4,
+        "magic": 7,
+        "endurance": 0
+      },
+      "extra_rolls": [
+        [
+          "agility",
+          7
+        ],
+        [
+          "magic",
+          7
+        ],
+        [
+          "agility",
+          -4
+        ],
+        [
+          "agility",
+          -8
+        ],
+        [
+          "agility",
+          9
+        ]
+      ]
+    },
+    "bag": {
+      "name": "Legendary Bag 24x24",
+      "rarity": "Legendary",
+      "equip_slot": "Bag",
+      "weapon": null,
+      "consumable": null,
+      "size": [
+        2,
+        3
+      ],
+      "mods": {
+        "vigor": -10,
+        "strength": 9,
+        "agility": -10,
+        "magic": 7,
+        "endurance": 7
+      },
+      "extra_rolls": [
+        [
+          "magic",
+          7
+        ],
+        [
+          "endurance",
+          7
+        ],
+        [
+          "agility",
+          -10
+        ],
+        [
+          "strength",
+          9
+        ],
+        [
+          "vigor",
+          -10
+        ]
+      ]
+    }
+  },
+  "merchant": {
+    "slots": [
+      {
+        "name": "Necklace",
+        "rarity": "Legendary",
+        "equip_slot": "Necklace",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 4,
+          "magic": 14,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "agility",
+            2
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "agility",
+            2
+          ]
+        ]
+      },
+      {
+        "name": "GiantHammer",
+        "rarity": "Legendary",
+        "equip_slot": "TwoHanded",
+        "weapon": "GiantHammer",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 5,
+          "magic": -2,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "agility",
+            7
+          ],
+          [
+            "magic",
+            -7
+          ],
+          [
+            "magic",
+            5
+          ],
+          [
+            "agility",
+            -9
+          ]
+        ]
+      },
+      {
+        "name": "Gloves",
+        "rarity": "Rare",
+        "equip_slot": "Gloves",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 4,
+          "strength": 0,
+          "agility": -1,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            4
+          ],
+          [
+            "agility",
+            -1
+          ],
+          [
+            "vigor",
+            0
+          ]
+        ]
+      },
+      {
+        "name": "TwoHandedSword",
+        "rarity": "UltraRare",
+        "equip_slot": "TwoHanded",
+        "weapon": "TwoHandedSword",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 6,
+          "strength": 0,
+          "agility": -4,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            5
+          ],
+          [
+            "agility",
+            -10
+          ],
+          [
+            "agility",
+            6
+          ],
+          [
+            "vigor",
+            1
+          ]
+        ]
+      },
+      {
+        "name": "CrystalBall",
+        "rarity": "Uncommon",
+        "equip_slot": "MainHand",
+        "weapon": "CrystalBall",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 8
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            3
+          ],
+          [
+            "endurance",
+            5
+          ]
+        ]
+      },
+      {
+        "name": "Hat",
+        "rarity": "Rare",
+        "equip_slot": "Hat",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 9,
+          "strength": 0,
+          "agility": 0,
+          "magic": 4,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            4
+          ],
+          [
+            "magic",
+            4
+          ],
+          [
+            "vigor",
+            5
+          ]
+        ]
+      },
+      {
+        "name": "Big Bandage",
+        "rarity": "Rare",
+        "equip_slot": null,
+        "weapon": null,
+        "consumable": "BigBandage",
+        "size": [
+          1,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": []
+      },
+      {
+        "name": "Gloves",
+        "rarity": "UltraRare",
+        "equip_slot": "Gloves",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": -9,
+          "agility": 5,
+          "magic": 6,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            5
+          ],
+          [
+            "magic",
+            6
+          ],
+          [
+            "strength",
+            1
+          ],
+          [
+            "strength",
+            -10
+          ]
+        ]
+      },
+      {
+        "name": "Small Heal Potion",
+        "rarity": "Legendary",
+        "equip_slot": null,
+        "weapon": null,
+        "consumable": "SmallHeal",
+        "size": [
+          1,
+          1
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": []
+      },
+      {
+        "name": "Hatchet",
+        "rarity": "Uncommon",
+        "equip_slot": "OffHand",
+        "weapon": "Hatchet",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 4,
+          "strength": 3,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            3
+          ],
+          [
+            "vigor",
+            4
+          ]
+        ]
+      },
+      {
+        "name": "Cape",
+        "rarity": "UltraRare",
+        "equip_slot": "Cape",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 9,
+          "strength": 0,
+          "agility": 1,
+          "magic": 0,
+          "endurance": -3
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            5
+          ],
+          [
+            "agility",
+            1
+          ],
+          [
+            "vigor",
+            9
+          ],
+          [
+            "endurance",
+            -8
+          ]
+        ]
+      },
+      {
+        "name": "Hatchet",
+        "rarity": "Rare",
+        "equip_slot": "OffHand",
+        "weapon": "Hatchet",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 2,
+          "agility": 0,
+          "magic": 2,
+          "endurance": 4
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            4
+          ],
+          [
+            "magic",
+            2
+          ],
+          [
+            "strength",
+            2
+          ]
+        ]
+      },
+      {
+        "name": "Cape",
+        "rarity": "Legendary",
+        "equip_slot": "Cape",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 9,
+          "agility": -3,
+          "magic": 1,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "agility",
+            7
+          ],
+          [
+            "strength",
+            9
+          ],
+          [
+            "magic",
+            -6
+          ],
+          [
+            "agility",
+            -10
+          ]
+        ]
+      },
+      null,
+      {
+        "name": "Hatchet",
+        "rarity": "Uncommon",
+        "equip_slot": "MainHand",
+        "weapon": "Hatchet",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 9,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            3
+          ],
+          [
+            "magic",
+            6
+          ]
+        ]
+      },
+      {
+        "name": "Shirt",
+        "rarity": "UltraRare",
+        "equip_slot": "Shirt",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 4,
+          "agility": 5,
+          "magic": -3,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            5
+          ],
+          [
+            "magic",
+            0
+          ],
+          [
+            "magic",
+            -3
+          ],
+          [
+            "strength",
+            4
+          ]
+        ]
+      },
+      {
+        "name": "LongSword",
+        "rarity": "Uncommon",
+        "equip_slot": "TwoHanded",
+        "weapon": "LongSword",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 11
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            3
+          ],
+          [
+            "endurance",
+            8
+          ]
+        ]
+      },
+      {
+        "name": "Big Heal Potion",
+        "rarity": "UltraRare",
+        "equip_slot": null,
+        "weapon": null,
+        "consumable": "BigHeal",
+        "size": [
+          1,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": []
+      },
+      {
+        "name": "Rare Bag 8x22",
+        "rarity": "Rare",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": -4,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            4
+          ],
+          [
+            "agility",
+            -4
+          ],
+          [
+            "vigor",
+            -4
+          ]
+        ]
+      },
+      null,
+      {
+        "name": "Necklace",
+        "rarity": "Legendary",
+        "equip_slot": "Necklace",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 1,
+          "magic": 14,
+          "endurance": 12
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "agility",
+            1
+          ],
+          [
+            "endurance",
+            5
+          ],
+          [
+            "magic",
+            7
+          ]
+        ]
+      },
+      {
+        "name": "UltraRare Bag 10x20",
+        "rarity": "UltraRare",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 2,
+          "magic": 5,
+          "endurance": -12
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            5
+          ],
+          [
+            "endurance",
+            -7
+          ],
+          [
+            "agility",
+            2
+          ],
+          [
+            "endurance",
+            -5
+          ]
+        ]
+      },
+      {
+        "name": "UltraRare Bag 10x20",
+        "rarity": "UltraRare",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": 5,
+          "strength": -1,
+          "agility": -8,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            5
+          ],
+          [
+            "strength",
+            -1
+          ],
+          [
+            "agility",
+            1
+          ],
+          [
+            "agility",
+            -9
+          ]
+        ]
+      },
+      {
+        "name": "Pants",
+        "rarity": "UltraRare",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 5,
+          "agility": 5,
+          "magic": -9,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            5
+          ],
+          [
+            "magic",
+            -6
+          ],
+          [
+            "strength",
+            5
+          ],
+          [
+            "magic",
+            -3
+          ]
+        ]
+      },
+      {
+        "name": "Necklace",
+        "rarity": "Rare",
+        "equip_slot": "Necklace",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 4,
+          "endurance": -1
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            4
+          ],
+          [
+            "endurance",
+            -1
+          ],
+          [
+            "agility",
+            0
+          ]
+        ]
+      },
+      {
+        "name": "Hat",
+        "rarity": "Legendary",
+        "equip_slot": "Hat",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 10,
+          "strength": 7,
+          "agility": 0,
+          "magic": 0,
+          "endurance": -7
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            7
+          ],
+          [
+            "strength",
+            7
+          ],
+          [
+            "endurance",
+            -7
+          ],
+          [
+            "vigor",
+            3
+          ],
+          [
+            "endurance",
+            0
+          ]
+        ]
+      },
+      {
+        "name": "Uncommon Bag 6x20",
+        "rarity": "Uncommon",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": 9,
+          "strength": 0,
+          "agility": 3,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            3
+          ],
+          [
+            "vigor",
+            9
+          ]
+        ]
+      },
+      null,
+      {
+        "name": "Pants",
+        "rarity": "Legendary",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": -10,
+          "strength": 0,
+          "agility": 14,
+          "magic": 0,
+          "endurance": -5
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "agility",
+            7
+          ],
+          [
+            "vigor",
+            -9
+          ],
+          [
+            "vigor",
+            -1
+          ],
+          [
+            "endurance",
+            -5
+          ]
+        ]
+      },
+      {
+        "name": "Dagger",
+        "rarity": "UltraRare",
+        "equip_slot": "OffHand",
+        "weapon": "Dagger",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 5,
+          "magic": -3,
+          "endurance": 16
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            5
+          ],
+          [
+            "endurance",
+            6
+          ],
+          [
+            "magic",
+            -3
+          ],
+          [
+            "endurance",
+            10
+          ]
+        ]
+      },
+      {
+        "name": "Watch",
+        "rarity": "Rare",
+        "equip_slot": "Watch",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 4,
+          "magic": 0,
+          "endurance": 2
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            4
+          ],
+          [
+            "endurance",
+            6
+          ],
+          [
+            "endurance",
+            -4
+          ]
+        ]
+      },
+      null,
+      {
+        "name": "Hat",
+        "rarity": "Legendary",
+        "equip_slot": "Hat",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 5,
+          "magic": 4,
+          "endurance": 5
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "magic",
+            4
+          ],
+          [
+            "endurance",
+            -2
+          ],
+          [
+            "agility",
+            -2
+          ]
+        ]
+      },
+      {
+        "name": "Scythe",
+        "rarity": "Legendary",
+        "equip_slot": "TwoHanded",
+        "weapon": "Scythe",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": -1,
+          "magic": 4,
+          "endurance": -9
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "magic",
+            -3
+          ],
+          [
+            "agility",
+            -8
+          ],
+          [
+            "endurance",
+            -9
+          ]
+        ]
+      },
+      null,
+      {
+        "name": "Big Bandage",
+        "rarity": "Rare",
+        "equip_slot": null,
+        "weapon": null,
+        "consumable": "BigBandage",
+        "size": [
+          1,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": []
+      },
+      {
+        "name": "Pants",
+        "rarity": "Rare",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": -3,
+          "agility": 4,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            4
+          ],
+          [
+            "magic",
+            0
+          ],
+          [
+            "strength",
+            -3
+          ]
+        ]
+      },
+      {
+        "name": "Pants",
+        "rarity": "Uncommon",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": -6,
+          "strength": 3,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            3
+          ],
+          [
+            "vigor",
+            -6
+          ]
+        ]
+      },
+      {
+        "name": "Shoes",
+        "rarity": "Legendary",
+        "equip_slot": "Shoes",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 7,
+          "strength": 0,
+          "agility": 0,
+          "magic": 3,
+          "endurance": 15
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            7
+          ],
+          [
+            "vigor",
+            7
+          ],
+          [
+            "magic",
+            3
+          ],
+          [
+            "endurance",
+            9
+          ],
+          [
+            "endurance",
+            -1
+          ]
+        ]
+      },
+      {
+        "name": "Hatchet",
+        "rarity": "UltraRare",
+        "equip_slot": "MainHand",
+        "weapon": "Hatchet",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 16,
+          "strength": 0,
+          "agility": 5,
+          "magic": 0,
+          "endurance": 2
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            5
+          ],
+          [
+            "vigor",
+            9
+          ],
+          [
+            "vigor",
+            7
+          ],
+          [
+            "endurance",
+            2
+          ]
+        ]
+      },
+      {
+        "name": "Pants",
+        "rarity": "UltraRare",
+        "equip_slot": "Pants",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": -8,
+          "strength": -2,
+          "agility": 0,
+          "magic": 5,
+          "endurance": 5
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            5
+          ],
+          [
+            "magic",
+            5
+          ],
+          [
+            "vigor",
+            -8
+          ],
+          [
+            "strength",
+            -2
+          ]
+        ]
+      },
+      {
+        "name": "Legendary Bag 24x24",
+        "rarity": "Legendary",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 2,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            7
+          ],
+          [
+            "strength",
+            7
+          ],
+          [
+            "strength",
+            -5
+          ],
+          [
+            "vigor",
+            10
+          ],
+          [
+            "vigor",
+            -10
+          ]
+        ]
+      },
+      null,
+      {
+        "name": "Hat",
+        "rarity": "Common",
+        "equip_slot": "Hat",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 2,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            2
+          ]
+        ]
+      },
+      null,
+      {
+        "name": "Watch",
+        "rarity": "UltraRare",
+        "equip_slot": "Watch",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 5,
+          "strength": 13,
+          "agility": 0,
+          "magic": -2,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            5
+          ],
+          [
+            "strength",
+            8
+          ],
+          [
+            "magic",
+            -2
+          ],
+          [
+            "strength",
+            5
+          ]
+        ]
+      },
+      {
+        "name": "GiantHammer",
+        "rarity": "UltraRare",
+        "equip_slot": "TwoHanded",
+        "weapon": "GiantHammer",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 11,
+          "strength": 0,
+          "agility": 5,
+          "magic": 0,
+          "endurance": -8
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            5
+          ],
+          [
+            "vigor",
+            7
+          ],
+          [
+            "endurance",
+            -8
+          ],
+          [
+            "vigor",
+            4
+          ]
+        ]
+      },
+      {
+        "name": "Rare Bag 8x22",
+        "rarity": "Rare",
+        "equip_slot": "Bag",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          3
+        ],
+        "mods": {
+          "vigor": 9,
+          "strength": -10,
+          "agility": 0,
+          "magic": 4,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            4
+          ],
+          [
+            "strength",
+            -10
+          ],
+          [
+            "vigor",
+            9
+          ]
+        ]
+      }
+    ]
+  },
+  "buyback": {
+    "items": [
+      {
+        "name": "Watch",
+        "rarity": "UltraRare",
+        "equip_slot": "Watch",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 9,
+          "magic": -1,
+          "endurance": -8
+        },
+        "extra_rolls": [
+          [
+            "agility",
+            5
+          ],
+          [
+            "magic",
+            -1
+          ],
+          [
+            "endurance",
+            -8
+          ],
+          [
+            "agility",
+            4
+          ]
+        ]
+      },
+      {
+        "name": "Small Bandage",
+        "rarity": "UltraRare",
+        "equip_slot": null,
+        "weapon": null,
+        "consumable": "SmallBandage",
+        "size": [
+          1,
+          1
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": []
+      },
+      {
+        "name": "Watch",
+        "rarity": "UltraRare",
+        "equip_slot": "Watch",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": -3,
+          "magic": 11,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            5
+          ],
+          [
+            "agility",
+            7
+          ],
+          [
+            "agility",
+            -10
+          ],
+          [
+            "magic",
+            6
+          ]
+        ]
+      },
+      {
+        "name": "CrystalBall",
+        "rarity": "UltraRare",
+        "equip_slot": "OffHand",
+        "weapon": "CrystalBall",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": -5,
+          "magic": 5,
+          "endurance": 9
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            5
+          ],
+          [
+            "agility",
+            -5
+          ],
+          [
+            "endurance",
+            8
+          ],
+          [
+            "endurance",
+            1
+          ]
+        ]
+      },
+      {
+        "name": "DoubleAxe",
+        "rarity": "UltraRare",
+        "equip_slot": "TwoHanded",
+        "weapon": "DoubleAxe",
+        "consumable": null,
+        "size": [
+          2,
+          4
+        ],
+        "mods": {
+          "vigor": 5,
+          "strength": 0,
+          "agility": 10,
+          "magic": 8,
+          "endurance": 1
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            5
+          ],
+          [
+            "agility",
+            10
+          ],
+          [
+            "endurance",
+            1
+          ],
+          [
+            "magic",
+            8
+          ]
+        ]
+      },
+      {
+        "name": "Watch",
+        "rarity": "UltraRare",
+        "equip_slot": "Watch",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 2,
+          "agility": 9,
+          "magic": 1,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            5
+          ],
+          [
+            "magic",
+            1
+          ],
+          [
+            "agility",
+            9
+          ],
+          [
+            "strength",
+            -3
+          ]
+        ]
+      },
+      {
+        "name": "Small Bandage",
+        "rarity": "UltraRare",
+        "equip_slot": null,
+        "weapon": null,
+        "consumable": "SmallBandage",
+        "size": [
+          1,
+          1
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": []
+      },
+      {
+        "name": "Necklace",
+        "rarity": "Legendary",
+        "equip_slot": "Necklace",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 10,
+          "strength": 7,
+          "agility": -5,
+          "magic": 10,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "magic",
+            3
+          ],
+          [
+            "agility",
+            -5
+          ],
+          [
+            "vigor",
+            10
+          ]
+        ]
+      },
+      {
+        "name": "Hatchet",
+        "rarity": "UltraRare",
+        "equip_slot": "OffHand",
+        "weapon": "Hatchet",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 8,
+          "agility": 8,
+          "magic": 5,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            5
+          ],
+          [
+            "agility",
+            7
+          ],
+          [
+            "agility",
+            1
+          ],
+          [
+            "strength",
+            8
+          ]
+        ]
+      },
+      {
+        "name": "Shirt",
+        "rarity": "UltraRare",
+        "equip_slot": "Shirt",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 5,
+          "strength": 0,
+          "agility": 8,
+          "magic": -1,
+          "endurance": 5
+        },
+        "extra_rolls": [
+          [
+            "vigor",
+            5
+          ],
+          [
+            "agility",
+            8
+          ],
+          [
+            "magic",
+            -1
+          ],
+          [
+            "endurance",
+            5
+          ]
+        ]
+      },
+      {
+        "name": "Watch",
+        "rarity": "UltraRare",
+        "equip_slot": "Watch",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 3,
+          "magic": -6,
+          "endurance": 9
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            5
+          ],
+          [
+            "agility",
+            3
+          ],
+          [
+            "magic",
+            -6
+          ],
+          [
+            "endurance",
+            4
+          ]
+        ]
+      },
+      {
+        "name": "Necklace",
+        "rarity": "UltraRare",
+        "equip_slot": "Necklace",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": -5,
+          "strength": -10,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 5
+        },
+        "extra_rolls": [
+          [
+            "endurance",
+            5
+          ],
+          [
+            "vigor",
+            3
+          ],
+          [
+            "strength",
+            -10
+          ],
+          [
+            "vigor",
+            -8
+          ]
+        ]
+      },
+      {
+        "name": "Small Bandage",
+        "rarity": "UltraRare",
+        "equip_slot": null,
+        "weapon": null,
+        "consumable": "SmallBandage",
+        "size": [
+          1,
+          1
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 0
+        },
+        "extra_rolls": []
+      },
+      {
+        "name": "Shoes",
+        "rarity": "Legendary",
+        "equip_slot": "Shoes",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": -1,
+          "strength": 0,
+          "agility": 0,
+          "magic": 0,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "vigor",
+            -1
+          ],
+          [
+            "strength",
+            -7
+          ],
+          [
+            "agility",
+            0
+          ]
+        ]
+      },
+      {
+        "name": "Necklace",
+        "rarity": "Legendary",
+        "equip_slot": "Necklace",
+        "weapon": null,
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 10,
+          "strength": 7,
+          "agility": -5,
+          "magic": 10,
+          "endurance": 0
+        },
+        "extra_rolls": [
+          [
+            "strength",
+            7
+          ],
+          [
+            "magic",
+            7
+          ],
+          [
+            "magic",
+            3
+          ],
+          [
+            "agility",
+            -5
+          ],
+          [
+            "vigor",
+            10
+          ]
+        ]
+      },
+      {
+        "name": "Hatchet",
+        "rarity": "Legendary",
+        "equip_slot": "OffHand",
+        "weapon": "Hatchet",
+        "consumable": null,
+        "size": [
+          2,
+          2
+        ],
+        "mods": {
+          "vigor": 0,
+          "strength": -3,
+          "agility": 0,
+          "magic": -2,
+          "endurance": 7
+        },
+        "extra_rolls": [
+          [
+            "magic",
+            7
+          ],
+          [
+            "endurance",
+            7
+          ],
+          [
+            "strength",
+            1
+          ],
+          [
+            "strength",
+            -4
+          ],
+          [
+            "magic",
+            -9
+          ]
+        ]
+      }
+    ]
+  },
+  "merchant_state": {
+    "refreshes_remaining": 1,
+    "refresh_seed": 2317854942848110005
+  },
+  "wallet": {
+    "gold": 13826
+  }
+}

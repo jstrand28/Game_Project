@@ -1,11 +1,24 @@
 use bevy::prelude::*;
+use serde::{Deserialize, Serialize};
 use crate::items::{Item, EquipSlot, BagSize, bag_size_for_rarity};
 use crate::stats::Stats;
 
-#[derive(Component)]
-pub struct Chest { pub items: Vec<Item> }
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub enum ChestTier {
+    Common,
+    Rare,
+    Epic,
+    Royal,
+}
 
-#[derive(Resource, Clone)]
+#[derive(Component)]
+pub struct Chest {
+    pub items: Vec<Item>,
+    pub gold: i32,
+    pub tier: ChestTier,
+}
+
+#[derive(Resource, Clone, Serialize, Deserialize)]
 pub struct BagGrid {
     pub w: u8,
     pub h: u8,
@@ -64,7 +77,7 @@ impl BagGrid {
     }
 }
 
-#[derive(Resource, Default, Clone)]
+#[derive(Resource, Default, Clone, Serialize, Deserialize)]
 pub struct Equipment {
     pub watch: Option<Item>,
     pub necklace: Option<Item>,

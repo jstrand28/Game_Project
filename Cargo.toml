@@ -4,13 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace.dependencies]
-bevy = "0.14.2"
-bevy_egui = "0.28"
-bevy_rapier3d = { version = "0.27.0", features = ["debug-render-3d"] }
+bevy = "0.18.1"
+bevy_egui = "0.39.1"
+bevy_rapier3d = { version = "0.33.0", features = ["debug-render-3d"] }
 
 [dependencies]
 # Bevy core (pinned; do not change patch unless all plugins match)
-bevy = { workspace = true }
+bevy = { workspace = true, features = ["wav"] }
 
 # Physics (pairs with Bevy 0.14)
 bevy_rapier3d = { workspace = true, features = ["debug-render-3d"] }
@@ -18,8 +18,10 @@ bevy_rapier3d = { workspace = true, features = ["debug-render-3d"] }
 # Egui overlay (pairs with Bevy 0.14)
 bevy_egui = { workspace = true }
 
-rand = "0.8"
-itertools = "0.12"
+rand = "0.10.0"
+itertools = "0.14.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 
 [profile.dev]
 opt-level = 1
